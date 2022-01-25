@@ -13,16 +13,16 @@ public class Main {
 	    // write your code here
         String inputString = StringUtils.getInputString();
 
-//        inputString = "aaaAAAkkkKKK";
+        inputString = "aaaAAAkkkKKK";
         inputString = InputFilter.filterInputString(inputString);
 //        System.out.println("inputString:"+inputString);
 
-        CodeTestService codeTest1Service = new CodeTest1Service();
-        codeTest1Service.setInputStr(inputString);
-        while (codeTest1Service.find().size()>0){
-            codeTest1Service.replace();
-            StringUtils.echo(codeTest1Service.getResult());
-        }
+//        CodeTestService codeTest1Service = new CodeTest1Service();
+//        codeTest1Service.setInputStr(inputString);
+//        while (codeTest1Service.find().size()>0){
+//            codeTest1Service.replace();
+//            StringUtils.echo(codeTest1Service.getResult());
+//        }
 
         CodeTestService codeTest2Service = new CodeTest2Service();
         codeTest2Service.setInputStr(inputString);

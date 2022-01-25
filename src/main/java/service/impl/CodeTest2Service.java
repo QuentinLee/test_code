@@ -37,7 +37,6 @@ public class CodeTest2Service extends CodeTestService {
         }else{
             realIndex = azIndex - 1;
         }
-        System.out.println("realIndex:"+realIndex);
         if(isUpperCase){
             reStr = Const.AZ_LIST.get(realIndex);
         }else{
